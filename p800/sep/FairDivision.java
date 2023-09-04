@@ -1,5 +1,9 @@
 package codeforces.p800.sep;
 
+/*
+ * 
+ * time - O(n) iterating over the array
+ */
 import java.util.Scanner;
 
 public class FairDivision {
