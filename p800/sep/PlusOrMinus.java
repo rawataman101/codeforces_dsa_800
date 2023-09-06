@@ -1,7 +1,7 @@
 package codeforces.p800.sep;
 
 import java.util.Scanner;
-
+// O(1)
 public class PlusOrMinus {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
