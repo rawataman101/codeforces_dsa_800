@@ -15,17 +15,17 @@ public class MaximumIncrease {
 
 // O(n)
 	private static void sol(int[] arr, int n) {
-		int max = 0;
-		int count = 0;
+		int max = 1;
+		int count = 1;
 		for (int i = 0; i < n - 1; i++) {
 			if (arr[i] < arr[i + 1]) {
 				count++;
 			} else {
-				count = 0;
+				count = 1;
 			}
 			max = Math.max(max, count);
 		}
-		System.out.println(max + 1);
+		System.out.println(max);
 
 	}
 
